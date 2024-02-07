@@ -14,25 +14,25 @@ const InfoData: InfoCardProps[] = [
 		title: 'Access your files, anywhere',
 		description:
 			'The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.',
-		icon: { url: '/images/icon-access-anywhere.svg' },
+		icon: { url: '/fylo-landpage/images/icon-access-anywhere.svg' },
 	},
 	{
 		title: 'Security you can trust',
 		description:
 			'2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.',
-		icon: { url: '/images/icon-security.svg' },
+		icon: { url: '/fylo-landpage/images/icon-security.svg' },
 	},
 	{
 		title: 'Real-time collaboration',
 		description:
 			'Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.',
-		icon: { url: '/images/icon-collaboration.svg' },
+		icon: { url: '/fylo-landpage/images/icon-collaboration.svg' },
 	},
 	{
 		title: 'Store any type of file',
 		description:
 			"Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
-		icon: { url: '/images/icon-any-file.svg' },
+		icon: { url: '/fylo-landpage/images/icon-any-file.svg' },
 	},
 ]
 
@@ -42,21 +42,21 @@ const feedbackData: FeedbackCardProps[] = [
 		feedback:
 			'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
 		occupation: 'Founder & CEO, Huddle',
-		urlAvatar: '/images/profile-1.jpg',
+		urlAvatar: '/fylo-landpage/images/profile-1.jpg',
 	},
 	{
 		author: 'Satish Patel',
 		feedback:
 			'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
 		occupation: 'Founder & CEO, Huddle',
-		urlAvatar: '/images/profile-2.jpg',
+		urlAvatar: '/fylo-landpage/images/profile-2.jpg',
 	},
 	{
 		author: 'Satish Patel',
 		feedback:
 			'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
 		occupation: 'Founder & CEO, Huddle',
-		urlAvatar: '/images/profile-3.jpg',
+		urlAvatar: '/fylo-landpage/images/profile-3.jpg',
 	},
 ]
 
@@ -67,7 +67,7 @@ function App() {
 				<Header />
 				<section className='flex w-full flex-col items-center justify-center bg-curvy-mobile bg-contain bg-no-repeat p-0 text-center'>
 					<img
-						src='/images/illustration-intro.png'
+						src='/fylo-landpage/images/illustration-intro.png'
 						alt='People collaborating on a document in a folder, engaged in productive teamwork.'
 					/>
 					<div className='my-8 space-y-4'>
@@ -95,7 +95,7 @@ function App() {
 				</section>
 				<section className='grid grid-rows-2 items-center gap-8 md:grid-cols-2 md:grid-rows-1'>
 					<img
-						src='/images/illustration-stay-productive.png'
+						src='/fylo-landpage/images/illustration-stay-productive.png'
 						alt='People conversing with speech bubbles, engaging in a lively discussion.'
 					/>
 					<div className='space-y-4'>
@@ -121,7 +121,7 @@ function App() {
 					</div>
 				</section>
 				<img
-					src='/images/bg-quotes.png'
+					src='/fylo-landpage/images/bg-quotes.png'
 					alt='quote'
 					className='-mb-16 w-8 md:-mb-[75px] md:-ml-3 md:w-12'
 				/>

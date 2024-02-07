@@ -1,13 +1,18 @@
 import { IoLocationSharp } from 'react-icons/io5'
 import { MdPhoneInTalk } from 'react-icons/md'
 import { MdEmail } from 'react-icons/md'
+import { CiFacebook, CiInstagram, CiTwitter } from 'react-icons/ci'
 
 export default function Footer() {
 	return (
 		<footer className='bg-primary-darkBlueFooter px-4 pb-8 pt-[60%] md:pt-14'>
 			<div className='mt-8 flex flex-col md:flex-row md:items-center md:justify-around'>
 				<div>
-					<img src='/images/logo.svg' alt='Fylo' className='mb-8' />
+					<img
+						src='/fylo-landpage/images/logo.svg'
+						alt='Fylo'
+						className='mb-8'
+					/>
 					<div className='flex max-w-xs items-center gap-4'>
 						<IoLocationSharp size={20} style={{ flexShrink: 0 }} />
 						<p>
@@ -40,6 +45,11 @@ export default function Footer() {
 						<a href='#'>Privacy</a>
 					</div>
 				</nav>
+				<div className='mt-4 flex gap-3 md:mt-0'>
+					<CiFacebook size={25} />
+					<CiInstagram size={25} />
+					<CiTwitter size={25} />
+				</div>
 			</div>
 		</footer>
 	)
